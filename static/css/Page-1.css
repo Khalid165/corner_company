@@ -139,9 +139,9 @@
   min-height: 445px;
   margin-top: 0;
   margin-bottom: 0;
-  background-image: url("../images/t4.png");
+  background-image: url("../images/t4r.png");
   height: auto;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -184,6 +184,7 @@
 .u-section-2 .u-text-2 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -206,8 +207,9 @@
 }
 
 .u-section-2 .u-text-4 {
-  font-weight: 700;
   font-size: 1.25rem;
+  font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -232,6 +234,7 @@
 .u-section-2 .u-text-6 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -256,6 +259,7 @@
 .u-section-2 .u-text-8 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -280,6 +284,7 @@
 .u-section-2 .u-text-10 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -304,6 +309,7 @@
 .u-section-2 .u-text-12 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -328,6 +334,7 @@
 .u-section-2 .u-text-14 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -352,6 +359,7 @@
 .u-section-2 .u-text-16 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -376,6 +384,7 @@
 .u-section-2 .u-text-18 {
   font-size: 1.25rem;
   font-weight: 700;
+  background-image: none;
   margin: 0;
 }
 
@@ -406,14 +415,6 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-2 {
-    min-height: 1733px;
-  }
-
-  .u-section-2 .u-image-1 {
-    min-height: 363px;
-  }
-
   .u-section-2 .u-list-1 {
     width: 720px;
     margin-top: -148px;
@@ -428,10 +429,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-image-1 {
-    min-height: 395px;
-  }
-
   .u-section-2 .u-container-layout-1 {
     padding-top: 85px;
     padding-left: 10px;
@@ -497,10 +494,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-2 {
-    min-height: 1751px;
-  }
-
   .u-section-2 .u-container-layout-1 {
     padding-top: 70px;
   }
@@ -560,3 +553,7 @@
 .u-section-2 .u-list-item-8:not([data-block-selected]):not([data-cell-selected]).u-section-2 .u-list-item-8:not([data-block-selected]):not([data-cell-selected]).u-section-2 .u-list-item-8:not([data-block-selected]):not([data-cell-selected]):hover:before {
   background-color: #333129 !important;
 }
+
+li,p,a,h1,h2,h3,h4,h5,h6{
+    font-family: 'Tajawal', sans-serif;
+ }

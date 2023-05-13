@@ -67,6 +67,8 @@
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
   }
-}.u-section-2 .u-sheet-1 {
-  min-height: 400px;
 }
+
+li,p,a,h1,h2,h3,h4,h5,h6{
+    font-family: 'Tajawal', sans-serif;
+ }

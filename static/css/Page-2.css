@@ -696,7 +696,7 @@
     height: 1136px;
   }
 }.u-section-7 .u-sheet-1 {
-  min-height: 749px;
+  min-height: 852px;
 }
 
 .u-section-7 .u-text-1 {
@@ -888,3 +888,7 @@
     height: 1136px;
   }
 }
+
+li,p,a,h1,h2,h3,h4,h5,h6{
+    font-family: 'Tajawal', sans-serif;
+ }
