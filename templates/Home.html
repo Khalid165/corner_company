@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
       <script src="https://kit.fontawesome.com/b3659b7f45.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+      <link rel="icon" type="image/png" href="static/images/img.png" >
 
 
 
@@ -21,10 +21,6 @@
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
 
 
-
-
-
-
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -33,7 +29,14 @@
     <meta name="theme-color" content="#174088">
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="static/js/swc.js"></script>
+    <link rel="stylesheet" href="static/css/swc.css">
+
+
+
+</head>
 
 <body>
 
@@ -73,7 +76,51 @@
         <img class="u-image u-image-default u-image-1" src="static/images/_____16_-removebg-preview.png" alt="" data-image-width="478" data-image-height="288">
       </div></header>
 
+
+
+
+
+
+
+
+
+
 <section class="u-clearfix u-custom-color-1 u-section-1" id="carousel_b19e">
+
+
+
+<div id="boxes" >
+<div style="top: 50%;  display: none;background-color:#262626;width:60%" id="dialog" class="window">
+<div id="san">
+<!--<a href="#" class="close agree"><img src="close-icon.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>-->
+        <a href="#" class="close agree"><i class="fa-solid fa-circle-xmark" style="color: #e0aa3e;float:right; margin-right: -25px; margin-top: -20px;" ></i></a>
+    <h5 style="color:white">
+        مرحبا بكم
+    </h5>
+    <h5 style="color:#e0aa3e">
+        للتواصل معنا
+    </h5>
+    <div style="text-align:center;">
+            <img style="width:6rem;margin-top:2%" src="static/images/_____16_-removebg-preview.png">
+            <p style="margin-top:0;color:white">ركن الزاوية للمقاولات العامة</p>
+        </div>
+         <div style="text-align:center;">
+
+
+            <div style="display:inline-block;">
+                <p style="color:white;"><i class="fa-solid fa-envelope" style="color:#ffd95a"></i>   Corner7070@gmail.com<br><i class="fa-solid fa-location-dot" style="color:#ffd95a"></i>   المملكة العربية السعودية - المنطقة الغربية</p>
+            </div>
+             <div style="display:inline-block;padding-right:10%">
+                <p style="color:white"><i class="fa-solid fa-phone" style="color:#ffd95a"></i>   966534115666+<br><i class="fa-solid fa-phone" style="color:#ffd95a"></i>   966534115999+<br><i class="fa-solid fa-phone" style="color:#ffd95a"></i>   966590477581+</p>
+            </div>
+            </div>
+</div>
+</div>
+
+
+
+
+
       <div class="u-custom-color-1 u-expanded-width u-shape u-shape-rectangle u-shape-1" data-animation-name="lightSpeedIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="250"></div>
       <img src="static/images/rrer.jpg" class="u-align-left u-image u-image-round u-radius-10 u-image-1" data-image-width="1350" data-image-height="900" data-animation-name="customAnimationIn" data-animation-duration="1500">
       <div class="u-align-left u-container-style u-custom-color-7 u-group u-radius-10 u-shape-round u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="250">
@@ -176,7 +223,7 @@
       </div>
     </section>
     <section class="u-clearfix u-white u-section-5" id="carousel_866a">
-      <img class="u-expanded-width u-image u-image-default u-image-1" src="static/images/bv-min.jpg" alt="" data-image-width="1618" data-image-height="1080">
+      <img class="u-expanded-width u-image u-image-default u-image-1" src="static/images/construction-crane.jpg" alt="" data-image-width="1618" data-image-height="1080">
       <div class="u-align-center u-container-style u-custom-color-7 u-group u-radius-10 u-shape-round u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
         <div class="u-container-layout u-container-layout-1">
           <h3 class="u-text u-text-1">رسالتنا</h3>
@@ -188,6 +235,6 @@
       </div>
     </section>
     
-    
+
     {%include 'footer.html'%}
   

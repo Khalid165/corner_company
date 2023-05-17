@@ -1,6 +1,9 @@
 from flask import Flask,render_template,redirect
+from flask_bootstrap import Bootstrap
 
 app=Flask(__name__)
+Bootstrap(app)
+
 
 @app.route("/")
 def home():
@@ -14,7 +17,7 @@ def about_us():
 def our_service():
     return render_template("Page-2.html")
 
-@app.route("/Privacy")
+@app.route("/our-policy")
 def privacy():
     return render_template("Page-1.html")
 

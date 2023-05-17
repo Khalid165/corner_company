@@ -162,7 +162,7 @@
 .u-section-2 .u-image-1 {
   width: 492px;
   height: 492px;
-  background-image: url("../images/jhhjh.png");
+  background-image: url("../images/header.jpeg");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -646,7 +646,7 @@
 .u-section-4 .u-image-1 {
   width: 544px;
   height: 544px;
-  background-image: url("../images/jh.jpg");
+  background-image: url("../images/meq.jpg");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
@@ -876,3 +876,4 @@
 li,p,a,h1,h2,h3,h4,h5,h6{
     font-family: 'Tajawal', sans-serif;
  }
+
