@@ -646,7 +646,7 @@
 .u-section-4 .u-image-1 {
   width: 544px;
   height: 544px;
-  background-image: url("../images/h_5.jpg");
+
   background-position: 50% 50%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
@@ -654,6 +654,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 116px auto 0 0;
+  background-image: url("../images/h_5.jpg");
 }
 
 .u-section-4 .u-group-1 {
